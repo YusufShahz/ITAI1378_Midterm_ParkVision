@@ -1,6 +1,6 @@
 # ParkVision – Parking Lot Occupancy Detector
 
-**Student:** Your Name  
+**Student:** Yusuf Shahzad  
 **Course:** ITAI 1378 – Computer Vision & AI  
 **Tier:** Tier 2 – Object Detection
 
