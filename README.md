@@ -29,13 +29,14 @@ generating a visual overlay and availability count.
 - **Classes:** `occupied`, `empty`
 - See [data/README.md](data/README.md) for download instructions
 
-## Success Metrics
-| Metric | Target |
-|--------|--------|
-| Detection Accuracy | ≥ 90% |
-| mAP@0.5 | ≥ 85% |
-| Inference Speed | < 1s per frame |
-| False Negatives | < 5% |
+## Results Achieved
+
+| Metric | Target | Actual | Status |
+|--------|--------|--------|--------|
+| mAP@0.5 | ≥ 85% | **99.5%** | ✅ Exceeded |
+| Precision | — | **99.8%** | ✅ |
+| Recall | — | **99.8%** | ✅ |
+| Inference Speed | < 1s | **~17ms** | ✅ 57x faster |
 
 ## Week-by-Week Plan
 | Week | Task | Milestone |
@@ -64,6 +65,4 @@ generating a visual overlay and availability count.
 | Overfitting | Medium | Early stopping, dropout |
 
 ## AI Usage Log
-| Date | Tool | How it was used |
-|------|------|-----------------|
-| March 6 | Claude | Generated project proposal and slide deck |
+See docs/AI_usage_log.md for full log
