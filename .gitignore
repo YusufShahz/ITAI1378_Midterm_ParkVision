@@ -1,0 +1,16 @@
+# Dataset files (too large for GitHub)
+data/images/
+data/labels/
+data/*.zip
+
+# Model weights
+*.pt
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
