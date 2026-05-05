@@ -1,25 +1,28 @@
 ParkVision – Final Model Metrics
 =================================
 Model: YOLOv8s
-Dataset: PKLot (Roboflow)
+Dataset: PKLot (Roboflow | sagitova-aliya/pklot-qesrf)
 Training: 50 epochs, T4 GPU, batch 16
+Evaluation split: test
 
 VALIDATION RESULTS
 ------------------
-mAP@0.5:        0.995  (99.5%)
-mAP@0.5-0.95:   0.992  (99.2%)
-Precision:      0.998  (99.8%)
-Recall:         0.998  (99.8%)
+mAP@0.5:        0.9943  (99.4%)
+mAP@0.5-0.95:   0.9917  (99.2%)
+Precision:      0.9970  (99.7%)
+Recall:         0.9968  (99.7%)
+F1-Score:       0.9969  (99.7%)
 
-SPEED
------
-Inference:      ~17ms per image
-FPS:            ~58 FPS
-Target (<1s):   PASSED (57x faster)
+TARGET COMPARISON
+-----------------
+mAP@0.5  target >= 0.85:  PASSED
+Speed    target <  1.0s:  PASSED (see speed benchmark section)
 
-TRAINING CURVE
---------------
-Epoch 1:  mAP50 = 0.977
-Epoch 2:  mAP50 = 0.987
-Epoch 3:  mAP50 = 0.990
-Epoch 50: mAP50 = 0.995
+SPEED BENCHMARK (n=50 images)
+------------------------------------
+Average inference: 15.4ms
+Median inference:  15.7ms
+P95 inference:     19.7ms
+Throughput:        64.9 FPS
+Target (<1000ms):  PASSED
+Speedup vs target: 65x
