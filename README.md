@@ -1,10 +1,7 @@
 # 🅿️ ParkVision – Parking Lot Occupancy Detector
 
-![ParkVision Demo](results/images/demo_grid.png)
-*Real-time detection of occupied and empty parking spaces using YOLOv8*
-
 ## 🎥 Demo Video
-[Watch Demo on YouTube](YOUR_YOUTUBE_LINK_HERE)
+[Watch Demo](https://drive.google.com/file/d/1ykO3VyCKquqZq0wyWLtg77qWCP6DKBPy/view?usp=sharing)
 
 ---
 
